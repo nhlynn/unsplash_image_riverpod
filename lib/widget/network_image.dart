@@ -28,7 +28,7 @@ class MyNetworkImageView extends StatelessWidget {
         ),
       ),
       errorWidget: (context, url, error) => const Icon(
-        Icons.error,
+        Icons.image_not_supported_rounded,
         color: Colors.red,
       ),
     );
